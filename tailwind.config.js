@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      sm: '480px',
+      sm: '350px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
@@ -21,8 +21,10 @@ module.exports = {
       red: colors.red,
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      serif: ['Lilita One', 'cursive'],
+    },
+    container: {
+      padding: '1rem',
     },
   },
   variants: {
