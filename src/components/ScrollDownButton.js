@@ -2,19 +2,21 @@ import React from "react";
 
 const ScrollDownButton = (props) => {
 
-  const classButton = "border rounded border-red-600 text-red-600 hover:bg-red-600 hover:text-white p-4 grid items-center grid-cols-" + props.gridColsClass
+  const scrollDown = () =>{
+    let elementSeccion = document.getElementById(props.nameIdScroll)
+    elementSeccion.scrollIntoView({behavior: 'smooth'})
+  };
 
   return (
-      <div>
-        <button className={classButton}>
-            <div className="font-medium">
-                {props.titleButton}
-            </div>
-            <div>
-                {props.iconButton}
-            </div>
+    <div className="hidden md:block container mx-auto w-screen" onClick={scrollDown}>
+      <div className="absolute bottom-20 lg:bottom-12">
+        <button className={props.classButton}>
+          <div className="pr-4 text-red-600">{props.iconButtonLeft}</div>
+          <div className="font-medium pr-4">Scroll Down</div>
+          <div className="text-red-600">{props.iconButtonRight}</div>
         </button>
       </div>
+    </div>
   );
 }
 

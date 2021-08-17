@@ -1,20 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 
 const ScrollUpButton = (props) => {
 
-  const classButton = "border rounded border-red-600 text-red-600 hover:bg-red-600 hover:text-white p-4 grid items-center grid-cols-" + props.gridColsClass
+  const [showScroll, setShowScroll] = useState(false)
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 400){
+      setShowScroll(true)
+    } else if (showScroll && window.pageYOffset <= 400){
+      setShowScroll(false)
+    }
+  }
+
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  }
+
+  window.addEventListener('scroll', checkScrollTop)
 
   return (
-      <div>
-        <button className={classButton}>
-            <div className="font-medium">
-                {props.titleButton}
-            </div>
-            <div>
-                {props.iconButton}
-            </div>
-        </button>
-      </div>
+    <div className={showScroll ? 'fixed bottom-20 right-6 lg:bottom-12 lg:right-12' : 'hidden'}>
+      <button className="border rounded border-red-600 text-red-600 hover:bg-red-600 hover:text-white py-2.5 px-3" onClick={scrollTop}>{props.iconButton}</button>
+    </div>
   );
 }
 
