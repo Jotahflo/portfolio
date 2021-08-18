@@ -2,11 +2,14 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500&display=swap");
 
 body {
   @apply bg-gray-100;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+.grid-cols-skills {
+  grid-template-columns: 3.5rem auto 3rem;
 }

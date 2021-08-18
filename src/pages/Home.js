@@ -5,9 +5,9 @@ import CardProject from '../components/CardProject';
 import ScrollDownButton from '../components/ScrollDownButton';
 import ScrollUpButton from '../components/ScrollUpButton';
 import Menu from '../components/Menu';
-import logoJF from '../images/Jotah-2020.svg';
+import logoJF from '../images/Jotah2020.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faUser, faMouse, faArrowUp, faArrowDown, faBriefcase, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const iconUser = <FontAwesomeIcon icon={faUser} size="lg" />
