@@ -1,14 +1,16 @@
 import React from "react";
 
 const ScrollDownButton = (props) => {
-
-  const scrollDown = () =>{
-    let elementSeccion = document.getElementById(props.nameIdScroll)
-    elementSeccion.scrollIntoView({behavior: 'smooth'})
+  const scrollDown = () => {
+    let elementSeccion = document.getElementById(props.nameIdScroll);
+    elementSeccion.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <div className="hidden md:block container mx-auto w-screen" onClick={scrollDown}>
+    <div
+      className="hidden md:block container mx-auto w-screen"
+      onClick={scrollDown}
+    >
       <div className="absolute bottom-20 lg:bottom-12">
         <button className={props.classButton}>
           <div className="pr-4 text-red-600">{props.iconButtonLeft}</div>
@@ -18,6 +20,6 @@ const ScrollDownButton = (props) => {
       </div>
     </div>
   );
-}
+};
 
 export default ScrollDownButton;

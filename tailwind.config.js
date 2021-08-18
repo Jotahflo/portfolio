@@ -24,7 +24,7 @@ module.exports = {
       serif: ["Lilita One", "cursive"],
     },
     container: {
-      padding: "1rem",
+      padding: "5%",
     },
   },
   variants: {

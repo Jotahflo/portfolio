@@ -40,15 +40,15 @@ const About = () => {
         classButton="p-4 flex flex-row"
       />
       <div id="sectionAbout">
-        <div className="container mx-auto pt-4 pb-8 grid grid-cols-1 md:grid-cols-2 items-center justify-items-center h-full md:h-screen w-screen">
-          <div className="md:order-1 pb-4 lg:w-4/5">
+        <div className="container mx-auto py-8 grid grid-cols-1 auto-rows-min lg:grid-cols-2 lg:auto-rows-auto items-center justify-items-center h-full md:h-screen">
+          <div className="md:order-1 pb-4 xl:ml-40 sm:w-4/5 md:w-5/12 lg:w-4/5 xl:w-3/5">
             <img
               className="border-2 border-gray-500 rounded-3xl shadow-sm"
               src={photoJF}
-              alt="Photo Juan Flores"
+              alt="Juan Flores"
             />
           </div>
-          <div className="md:order-2">
+          <div className="md:order-2 xl:mr-40">
             <p className="text-4xl font-serif pb-3">
               I'm Juan, a web developer who wants to help create functional and
               quality.
@@ -73,7 +73,7 @@ const About = () => {
         </div>
       </div>
       <div id="sectionSkills" className="bg-gray-800">
-        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-screen">
+        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
           <div className="pb-10 text-center">
             <p className="text-4xl font-serif text-white pb-1">Skills</p>
             <p className="text-base text-white">My technical level</p>
@@ -82,7 +82,7 @@ const About = () => {
         </div>
       </div>
       <div id="sectionExperiences">
-        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-screen">
+        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
           <div className="pb-10 text-center">
             <p className="text-4xl font-serif pb-1">Experiences</p>
             <p className="text-base text-gray-500">My personal trip</p>

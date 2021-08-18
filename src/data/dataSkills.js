@@ -38,9 +38,10 @@ const skills = [
     arrowUp: iconAngleUp,
     arrowDown: iconAngleDown,
     techs: [
-      { id: "1", name: "PHP", percents: "90%" },
-      { id: "2", name: "C#", percents: "90%" },
+      { id: "1", name: "PHP", percents: "80%" },
+      { id: "2", name: "C#", percents: "50%" },
       { id: "3", name: "Python", percents: "30%" },
+      { id: "4", name: "MySQL", percents: "60%" },
     ],
   },
   {
@@ -51,7 +52,7 @@ const skills = [
     arrowUp: iconAngleUp,
     arrowDown: iconAngleDown,
     techs: [
-      { id: "1", name: "Figma", percents: "90%" },
+      { id: "1", name: "Figma", percents: "80%" },
       { id: "2", name: "Adobe XD", percents: "70%" },
       { id: "3", name: "GIMP", percents: "70%" },
       { id: "4", name: "Inkscape", percents: "50%" },
