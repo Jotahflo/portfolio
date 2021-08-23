@@ -1,7 +1,7 @@
 {
-  "homepage":"https://Jfloresvid.github.io/portafolio-jf",
+  "homepage": "https://Jfloresvid.github.io/",
   "name": "portafolio-jf",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.15.0",
