@@ -12,7 +12,7 @@ const Menu = () => {
         <div className="container mx-auto grid grid-cols-2 text-white">
           <p className="text-xl font-serif">Juan</p>
           <div className="flex flex-row justify-end items-start">
-            <Link to="/">
+            <Link to="/home">
               <button className="pr-6 md:pr-8 flex flex-row items-center">
                 <div className="md:pr-2 text-red-600">
                   <FontAwesomeIcon icon="briefcase" size="lg" />
