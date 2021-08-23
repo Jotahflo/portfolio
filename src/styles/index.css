@@ -10,6 +10,42 @@ body {
   font-weight: 400;
 }
 
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #737373 #262626;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #737373;
+  border-radius: 20px;
+  border: 2px solid #262626;
+}
+
 .grid-cols-skills {
-  grid-template-columns: 3.5rem auto 3rem;
+  grid-template-columns: 3.5rem auto;
+}
+
+.h-fa {
+  height: -moz-available; /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+}
+
+@media screen and (min-width: 768px) {
+  .md-h-fit-content {
+    height: fit-content;
+  }
+
+  .md-w-fit-content {
+    width: fit-content;
+  }
 }

@@ -7,36 +7,13 @@ import ScrollUpButton from "../components/ScrollUpButton";
 import Menu from "../components/Menu";
 import logoJF from "../images/Jotah2020.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { fab } from '@fortawesome/free-brands-svg-icons';
-import {
-  faUser,
-  faMouse,
-  faArrowUp,
-  faArrowDown,
-  faBriefcase,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
 
-const iconUser = <FontAwesomeIcon icon={faUser} size="lg" />;
-const iconMouse = <FontAwesomeIcon icon={faMouse} size="lg" />;
-const iconArrowDown = <FontAwesomeIcon icon={faArrowDown} size="lg" />;
-const iconArrowUp = <FontAwesomeIcon icon={faArrowUp} size="lg" />;
-const iconBriefcase = <FontAwesomeIcon icon={faBriefcase} size="lg" />;
-const iconEnvelope = <FontAwesomeIcon icon={faEnvelope} size="lg" />;
-
-//TODO: Colocar api para proyecto y cambiar h-screen segun la cantidad de proyectos
 const Home = () => {
   return (
     <div>
-      <Menu
-        iconProjects={iconBriefcase}
-        iconAbout={iconUser}
-        iconContact={iconEnvelope}
-      />
-      <ScrollUpButton iconButton={iconArrowUp} />
+      <Menu />
+      <ScrollUpButton />
       <ScrollDownButton
-        iconButtonLeft={iconMouse}
-        iconButtonRight={iconArrowDown}
         nameIdScroll="sectionProjects"
         classButton="text-white p-4 flex flex-row"
       />
@@ -59,7 +36,7 @@ const Home = () => {
             </p>
             <ActionButton
               titleButton="What can I offer?"
-              iconButton={iconUser}
+              iconButton={<FontAwesomeIcon icon="user" size="lg" />}
               styleDivMaster="md:flex"
             />
           </div>
@@ -82,7 +59,7 @@ const Home = () => {
           <CardProject />
         </div>
       </div>
-      <Footer iconContact={iconEnvelope} />
+      <Footer />
     </div>
   );
 };

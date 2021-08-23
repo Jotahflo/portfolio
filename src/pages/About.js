@@ -5,38 +5,14 @@ import ScrollDownButton from "../components/ScrollDownButton";
 import ScrollUpButton from "../components/ScrollUpButton";
 import Menu from "../components/Menu";
 import photoJF from "../images/photoJF.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { fab } from '@fortawesome/free-brands-svg-icons';
-import {
-  faUser,
-  faMouse,
-  faArrowUp,
-  faArrowDown,
-  faBriefcase,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
 
-const iconUser = <FontAwesomeIcon icon={faUser} size="lg" />;
-const iconMouse = <FontAwesomeIcon icon={faMouse} size="lg" />;
-const iconArrowDown = <FontAwesomeIcon icon={faArrowDown} size="lg" />;
-const iconArrowUp = <FontAwesomeIcon icon={faArrowUp} size="lg" />;
-const iconBriefcase = <FontAwesomeIcon icon={faBriefcase} size="lg" />;
-const iconEnvelope = <FontAwesomeIcon icon={faEnvelope} size="lg" />;
-
-//TODO: Colocar api para proyecto y cambiar h-screen segun la cantidad de proyectos
 const About = () => {
   return (
     <div>
-      <Menu
-        iconProjects={iconBriefcase}
-        iconAbout={iconUser}
-        iconContact={iconEnvelope}
-      />
-      <ScrollUpButton iconButton={iconArrowUp} />
+      <Menu />
+      <ScrollUpButton />
       <ScrollDownButton
-        iconButtonLeft={iconMouse}
-        iconButtonRight={iconArrowDown}
-        nameIdScroll="sectionSkills"
+        nameIdScroll="sectionHistory"
         classButton="p-4 flex flex-row"
       />
       <div id="sectionAbout">
@@ -72,24 +48,24 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div id="sectionSkills" className="bg-gray-800">
+      <div id="sectionHistory" className="bg-gray-800">
         <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
           <div className="pb-10 text-center">
-            <p className="text-4xl font-serif text-white pb-1">Skills</p>
-            <p className="text-base text-white">My technical level</p>
+            <p className="text-4xl text-white font-serif pb-1">History</p>
+            <p className="text-base text-gray-400">My personal trip</p>
+          </div>
+        </div>
+      </div>
+      <div id="sectionSkills">
+        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
+          <div className="pb-10 text-center">
+            <p className="text-4xl font-serif pb-1">Skills</p>
+            <p className="text-base text-gray-500">My technical level</p>
           </div>
           <SkillsGroup />
         </div>
       </div>
-      <div id="sectionExperiences">
-        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
-          <div className="pb-10 text-center">
-            <p className="text-4xl font-serif pb-1">Experiences</p>
-            <p className="text-base text-gray-500">My personal trip</p>
-          </div>
-        </div>
-      </div>
-      <Footer iconContact={iconEnvelope} />
+      <Footer />
     </div>
   );
 };
