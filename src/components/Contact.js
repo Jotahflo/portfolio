@@ -47,18 +47,21 @@ const Contact = (props) => {
                 <a
                   className="pr-4 text-red-600"
                   href="https://www.linkedin.com/in/jfloresvid/"
+                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
                 </a>
                 <a
                   className="pr-4 text-red-600"
                   href="https://github.com/Jfloresvid"
+                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                 </a>
                 <a
                   className="pr-4 text-red-600"
                   href="https://gitlab.com/Jfloresvid"
+                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "gitlab"]} size="lg" />
                 </a>

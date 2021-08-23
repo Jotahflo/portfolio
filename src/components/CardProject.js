@@ -19,7 +19,11 @@ const CardProject = () => {
                 <p className="text-base text-gray-500">{project.desc}</p>
               </div>
               <div className="col-span-2 text-right pt-2">
-                <a className="text-red-600 font-medium" href={project.url}>
+                <a
+                  className="text-red-600 font-medium"
+                  href={project.url}
+                  target="_blank"
+                >
                   Go to Project
                 </a>
               </div>
