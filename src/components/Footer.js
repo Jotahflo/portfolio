@@ -20,7 +20,7 @@ const Footer = () => {
             titleButton="Contact Me"
             iconButton={<FontAwesomeIcon icon="envelope" size="lg" />}
             styleDivMaster="md:flex md:justify-end md:items-start"
-            setShowModal={setShowModal}
+            action={() => setShowModal(true)}
           />
         </div>
       </div>

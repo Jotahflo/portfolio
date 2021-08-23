@@ -18,7 +18,7 @@ const CardProject = () => {
                 <p className="text-2xl font-serif pb-2">{project.name}</p>
                 <p className="text-base text-gray-500">{project.desc}</p>
               </div>
-              <div className="col-span-2 text-right pt-2 md:pt-0">
+              <div className="col-span-2 text-right pt-2">
                 <a className="text-red-600 font-medium" href={project.url}>
                   Go to Project
                 </a>

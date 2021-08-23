@@ -11,8 +11,8 @@ const projects = [
   {
     id: "2",
     icon: iconFinansi,
-    name: "Contabilidad",
-    desc: "Software to manage the accounting of companies.",
+    name: "Conta",
+    desc: "Software to manage the accounting.",
     url: "http://www.facebook.com",
   },
 ];

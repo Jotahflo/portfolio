@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Contact from "../components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -11,18 +12,22 @@ const Menu = () => {
         <div className="container mx-auto grid grid-cols-2 text-white">
           <p className="text-xl font-serif">Juan</p>
           <div className="flex flex-row justify-end items-start">
-            <button className="pr-6 md:pr-8 flex flex-row items-center">
-              <div className="md:pr-2 text-red-600">
-                <FontAwesomeIcon icon="briefcase" size="lg" />
-              </div>
-              <p className="text-xl font-serif hidden md:block">Projects</p>
-            </button>
-            <button className="pr-6 md:pr-8 flex flex-row items-center">
-              <div className="md:pr-2 text-red-600">
-                <FontAwesomeIcon icon="user" size="lg" />
-              </div>
-              <p className="text-xl font-serif hidden md:block">About</p>
-            </button>
+            <Link to="/">
+              <button className="pr-6 md:pr-8 flex flex-row items-center">
+                <div className="md:pr-2 text-red-600">
+                  <FontAwesomeIcon icon="briefcase" size="lg" />
+                </div>
+                <p className="text-xl font-serif hidden md:block">Projects</p>
+              </button>
+            </Link>
+            <Link to="/about">
+              <button className="pr-6 md:pr-8 flex flex-row items-center">
+                <div className="md:pr-2 text-red-600">
+                  <FontAwesomeIcon icon="user" size="lg" />
+                </div>
+                <p className="text-xl font-serif hidden md:block">About</p>
+              </button>
+            </Link>
             <button
               className="flex flex-row items-center"
               onClick={() => setShowModal(true)}

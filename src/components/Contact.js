@@ -40,17 +40,28 @@ const Contact = (props) => {
                 <br /> You can get in touch by sending an email or any of my
                 social networks.
               </p>
-              <p className="text-2xl font-serif pb-8">j.floresvid@gmail.com</p>
+              <p className="text-2xl font-serif pb-8">
+                <a href="mailto:j.floresvid@gmail.com">j.floresvid@gmail.com</a>
+              </p>
               <div className="flex flex-row">
-                <button className="pr-4 text-red-600">
+                <a
+                  className="pr-4 text-red-600"
+                  href="https://www.linkedin.com/in/jfloresvid/"
+                >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
-                </button>
-                <button className="pr-4 text-red-600">
+                </a>
+                <a
+                  className="pr-4 text-red-600"
+                  href="https://github.com/Jfloresvid"
+                >
                   <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
-                </button>
-                <button className="text-red-600">
+                </a>
+                <a
+                  className="pr-4 text-red-600"
+                  href="https://gitlab.com/Jfloresvid"
+                >
                   <FontAwesomeIcon icon={["fab", "gitlab"]} size="lg" />
-                </button>
+                </a>
               </div>
             </div>
             <div className="border-t border-solid border-blueGray-200 text-right pt-4 pr-4">

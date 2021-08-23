@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
-// import Home from './pages/Home';
-import About from "./pages/About";
+import Layout from "./Layout";
 import reportWebVitals from "./reportWebVitals";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -35,7 +34,7 @@ const root = document.getElementById("root");
 
 ReactDOM.render(
   <React.StrictMode>
-    <About />
+    <Layout />
   </React.StrictMode>,
   root
 );
