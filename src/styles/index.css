@@ -49,3 +49,7 @@ body {
     width: fit-content;
   }
 }
+
+.left-50per {
+  left: 50%;
+}

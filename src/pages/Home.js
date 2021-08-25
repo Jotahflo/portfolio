@@ -26,7 +26,7 @@ const Home = (props) => {
             <p className="text-4xl text-white font-serif pb-2">
               Hello, I'm Juan
             </p>
-            <p className="text-xl text-gray-200 font-medium pb-4">
+            <p className="text-xl text-gray-400 font-medium pb-4">
               Frontend Developer
             </p>
             <p className="text-base text-gray-400 pb-4">

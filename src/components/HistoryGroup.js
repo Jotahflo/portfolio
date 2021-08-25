@@ -3,21 +3,26 @@ import history from "../data/dataHistory";
 
 const HistoryGroup = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-max">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
       {history.map((data) => {
         return (
-          <div className="mb-8 md:mr-12 text-white">
-            <div className="grid grid-cols-skills items-center">
-              <div className="text-red-600">{data.icon}</div>
-              <div className="text-left">
-                <p className="text-2xl font-serif">{data.year}</p>
-                <p className="text-base text-gray-400">{data.desc}</p>
+          <div
+            key={data.id}
+            className="flex flex-col md:flex-row justify-start items-center md:mb-4"
+          >
+            <div className="bg-gray-700 rounded-xl shadow-sm p-4 h-full w-full">
+              <p className="mb-3 font-serif text-white text-2xl text-center">
+                {data.year}
+              </p>
+              <p className="text-base text-gray-400">{data.desc}</p>
+            </div>
+            {data.id < history.length && (
+              <div className="flex flex-col md:flex-row items-center">
+                <div className="border border-2-2 border-opacity-50 border-red-600 h-5 md:h-0 md:w-5 shadow-sm"></div>
+                <div className="bg-red-600 shadow-sm w-6 h-6 rounded-full"></div>
+                <div className="border border-2-2 border-opacity-50 border-red-600 h-5 md:h-0 md:w-5 shadow-sm"></div>
               </div>
-            </div>
-            <div className="grid grid-cols-skills">
-              <div></div>
-              <div></div>
-            </div>
+            )}
           </div>
         );
       })}
@@ -25,4 +30,4 @@ const HistoryGroup = () => {
   );
 };
 
-export default ExperienceGroup;
+export default HistoryGroup;

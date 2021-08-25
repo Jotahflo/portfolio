@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import SkillsGroup from "../components/SkillsGroup";
+import HistoryGroup from "../components/HistoryGroup";
 import ScrollDownButton from "../components/ScrollDownButton";
 import ScrollUpButton from "../components/ScrollUpButton";
 import Menu from "../components/Menu";
@@ -49,11 +50,12 @@ const About = () => {
         </div>
       </div>
       <div id="sectionHistory" className="bg-gray-800">
-        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
+        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full">
           <div className="pb-10 text-center">
             <p className="text-4xl text-white font-serif pb-1">History</p>
             <p className="text-base text-gray-400">My personal trip</p>
           </div>
+          <HistoryGroup />
         </div>
       </div>
       <div id="sectionSkills">
