@@ -10,9 +10,9 @@ const Footer = () => {
     <>
       <div id="sectionFooter" className="bg-gray-800">
         <div className="container mx-auto pt-10 pb-20 grid grid-cols-1 md:grid-cols-2 h-full">
-          <div>
-            <p className="text-4xl text-white font-serif pb-2">Juan</p>
-            <p className="text-base text-gray-400 leading-normal pb-10">
+          <div className="mb-10">
+            <p className="text-4xl text-white font-serif mb-2">Juan</p>
+            <p className="text-base text-gray-400 leading-normal">
               Desarrollador Frontend
             </p>
           </div>

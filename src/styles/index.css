@@ -31,13 +31,8 @@ body {
   border: 2px solid #262626;
 }
 
-.grid-cols-skills {
-  grid-template-columns: 3.5rem auto;
-}
-
-.h-fa {
-  height: -moz-available; /* WebKit-based browsers will ignore this. */
-  height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+.h-inherit {
+  height: inherit;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,8 +43,14 @@ body {
   .md-w-fit-content {
     width: fit-content;
   }
+
+  .grid-cols-history-3 {
+    grid-template-columns: repeat(3, auto);
+  }
 }
 
-.left-50per {
-  left: 50%;
+@media screen and (min-width: 1440px) {
+  .grid-cols-history-5 {
+    grid-template-columns: repeat(5, auto);
+  }
 }

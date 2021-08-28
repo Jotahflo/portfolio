@@ -14,10 +14,10 @@ const ScrollDownButton = (props) => {
     >
       <div className="absolute bottom-20 lg:bottom-12">
         <button className={props.classButton}>
-          <div className="pr-4 text-red-600">
+          <div className="mr-4 text-red-600">
             <FontAwesomeIcon icon="mouse" size="lg" />
           </div>
-          <div className="font-medium pr-4">Scroll Down</div>
+          <div className="font-medium mr-4">Scroll Down</div>
           <div className="text-red-600">
             <FontAwesomeIcon icon="arrow-down" size="lg" />
           </div>

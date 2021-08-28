@@ -7,7 +7,7 @@ const ActionButton = (props) => {
         className="border rounded border-red-600 text-red-600 hover:bg-red-600 hover:text-white p-4 flex flex-row items-center"
         onClick={props.action}
       >
-        <p className="font-medium pr-4">{props.titleButton}</p>
+        <p className="font-medium mr-4">{props.titleButton}</p>
         {props.iconButton}
       </button>
     </div>

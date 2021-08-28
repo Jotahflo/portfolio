@@ -30,38 +30,35 @@ const Contact = (props) => {
       <div className="md:flex md:justify-center md:items-center inset-0 fixed z-30">
         <div className="md-h-fit-content md-w-fit-content p-4 md:px-4 bg-gray-800 h-full md:rounded-xl">
           <div className="container mx-auto bg-gray-100 flex flex-col p-4 rounded-xl h-full">
-            <div className="pb-10 text-center pt-4">
-              <p className="text-4xl font-serif pb-1">Contact</p>
+            <div className="mb-10 text-center mt-4">
+              <p className="text-4xl font-serif mb-1">Contact</p>
               <p className="text-base text-gray-500">My personal data</p>
             </div>
-            <div className="h-fa pb-12">
-              <p className="text-base text-gray-500 pb-2">
+            <div className="h-inherit mb-12">
+              <p className="text-base text-gray-500 mb-2">
                 If you have a new project, I am always available to talk to you.
                 <br /> You can get in touch by sending an email or any of my
                 social networks.
               </p>
-              <p className="text-2xl font-serif pb-8">
+              <p className="text-2xl font-serif mb-8">
                 <a href="mailto:j.floresvid@gmail.com">j.floresvid@gmail.com</a>
               </p>
               <div className="flex flex-row">
                 <a
-                  className="pr-4 text-red-600"
+                  className="mr-4 text-red-600"
                   href="https://www.linkedin.com/in/jfloresvid/"
-                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
                 </a>
                 <a
-                  className="pr-4 text-red-600"
+                  className="mr-4 text-red-600"
                   href="https://github.com/Jfloresvid"
-                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                 </a>
                 <a
-                  className="pr-4 text-red-600"
+                  className="mr-4 text-red-600"
                   href="https://gitlab.com/Jfloresvid"
-                  target="_blank"
                 >
                   <FontAwesomeIcon icon={["fab", "gitlab"]} size="lg" />
                 </a>

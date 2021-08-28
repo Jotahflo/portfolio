@@ -10,12 +10,12 @@ const SkillsGroup = () => {
             key={skill.id}
             className="mb-4 md:mr-4 bg-gray-200 p-4 rounded-xl"
           >
-            <div className="grid grid-cols-skills items-center pb-2">
-              <div className="text-red-600">{skill.icon}</div>
+            <div className="flex flex-row items-center mb-2">
+              <div className="text-red-600 mr-4">{skill.icon}</div>
               <p className="text-2xl font-serif text-left">{skill.name}</p>
             </div>
             <p className="text-base text-gray-500">{skill.desc}</p>
-            <div className="pt-2">
+            <div className="mt-2">
               {skill.techs.map((tech) => {
                 return (
                   <div

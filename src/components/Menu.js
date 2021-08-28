@@ -12,17 +12,17 @@ const Menu = () => {
         <div className="container mx-auto grid grid-cols-2 text-white">
           <p className="text-xl font-serif">Juan</p>
           <div className="flex flex-row justify-end items-start">
-            <Link to="/home">
-              <button className="pr-6 md:pr-8 flex flex-row items-center">
-                <div className="md:pr-2 text-red-600">
+            <Link to="/portafolio-jf">
+              <button className="mr-6 md:mr-8 flex flex-row items-center">
+                <div className="md:mr-2 text-red-600">
                   <FontAwesomeIcon icon="briefcase" size="lg" />
                 </div>
                 <p className="text-xl font-serif hidden md:block">Projects</p>
               </button>
             </Link>
-            <Link to="/about">
-              <button className="pr-6 md:pr-8 flex flex-row items-center">
-                <div className="md:pr-2 text-red-600">
+            <Link to="/portafolio-jf/about">
+              <button className="mr-6 md:mr-8 flex flex-row items-center">
+                <div className="md:mr-2 text-red-600">
                   <FontAwesomeIcon icon="user" size="lg" />
                 </div>
                 <p className="text-xl font-serif hidden md:block">About</p>
@@ -32,7 +32,7 @@ const Menu = () => {
               className="flex flex-row items-center"
               onClick={() => setShowModal(true)}
             >
-              <div className="md:pr-2 text-red-600">
+              <div className="md:mr-2 text-red-600">
                 <FontAwesomeIcon icon="envelope" size="lg" />
               </div>
               <p className="text-xl font-serif hidden md:block">Contact</p>
