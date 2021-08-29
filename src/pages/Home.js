@@ -5,7 +5,7 @@ import CardProject from "../components/CardProject";
 import ScrollDownButton from "../components/ScrollDownButton";
 import ScrollUpButton from "../components/ScrollUpButton";
 import Menu from "../components/Menu";
-import logoJF from "../images/Jotah2020.svg";
+import logoJF from "../images/logoJF.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = (props) => {
@@ -38,7 +38,7 @@ const Home = (props) => {
               titleButton="What can I offer?"
               iconButton={<FontAwesomeIcon icon="user" size="lg" />}
               styleDivMaster="md:flex"
-              action={() => props.history.push("/portafolio-jf/about")}
+              action={() => props.history.push("/portfolio/about")}
             />
           </div>
         </div>

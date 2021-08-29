@@ -27,7 +27,7 @@ const ScrollUpButton = () => {
       }
     >
       <button
-        className="border rounded border-red-600 text-red-600 hover:bg-red-600 hover:text-white py-2.5 px-3"
+        className="rounded bg-red-600 hover:bg-red-700 text-white py-2.5 px-3"
         title="ScrollUp"
         onClick={scrollTop}
       >

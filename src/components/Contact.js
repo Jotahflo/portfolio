@@ -52,13 +52,13 @@ const Contact = (props) => {
                 </a>
                 <a
                   className="mr-4 text-red-600"
-                  href="https://github.com/Jfloresvid"
+                  href="https://github.com/Jotahflo"
                 >
                   <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                 </a>
                 <a
                   className="mr-4 text-red-600"
-                  href="https://gitlab.com/Jfloresvid"
+                  href="https://gitlab.com/Jotahflo"
                 >
                   <FontAwesomeIcon icon={["fab", "gitlab"]} size="lg" />
                 </a>

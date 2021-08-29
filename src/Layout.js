@@ -10,8 +10,8 @@ const Layout = () => {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route exact path="/portafolio-jf" component={Home} />
-            <Route exact path="/portafolio-jf/about" component={About} />
+            <Route exact path="/portfolio" component={Home} />
+            <Route exact path="/portfolio/about" component={About} />
             <Route component={PageNotFound} />
           </Switch>
         </div>

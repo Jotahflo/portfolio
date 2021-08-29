@@ -12,7 +12,7 @@ const Menu = () => {
         <div className="container mx-auto grid grid-cols-2 text-white">
           <p className="text-xl font-serif">Juan</p>
           <div className="flex flex-row justify-end items-start">
-            <Link to="/portafolio-jf">
+            <Link to="/portfolio">
               <button className="mr-6 md:mr-8 flex flex-row items-center">
                 <div className="md:mr-2 text-red-600">
                   <FontAwesomeIcon icon="briefcase" size="lg" />
@@ -20,7 +20,7 @@ const Menu = () => {
                 <p className="text-xl font-serif hidden md:block">Projects</p>
               </button>
             </Link>
-            <Link to="/portafolio-jf/about">
+            <Link to="/portfolio/about">
               <button className="mr-6 md:mr-8 flex flex-row items-center">
                 <div className="md:mr-2 text-red-600">
                   <FontAwesomeIcon icon="user" size="lg" />
