@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portafolio-jf/static/css/main.e2a3f6bc.chunk.css",
-    "main.js": "/portafolio-jf/static/js/main.1ce854fe.chunk.js",
-    "main.js.map": "/portafolio-jf/static/js/main.1ce854fe.chunk.js.map",
-    "runtime-main.js": "/portafolio-jf/static/js/runtime-main.866e1123.js",
-    "runtime-main.js.map": "/portafolio-jf/static/js/runtime-main.866e1123.js.map",
-    "static/js/2.19ed6857.chunk.js": "/portafolio-jf/static/js/2.19ed6857.chunk.js",
-    "static/js/2.19ed6857.chunk.js.map": "/portafolio-jf/static/js/2.19ed6857.chunk.js.map",
-    "static/js/3.cae5674a.chunk.js": "/portafolio-jf/static/js/3.cae5674a.chunk.js",
-    "static/js/3.cae5674a.chunk.js.map": "/portafolio-jf/static/js/3.cae5674a.chunk.js.map",
-    "index.html": "/portafolio-jf/index.html",
-    "static/css/main.e2a3f6bc.chunk.css.map": "/portafolio-jf/static/css/main.e2a3f6bc.chunk.css.map",
-    "static/js/2.19ed6857.chunk.js.LICENSE.txt": "/portafolio-jf/static/js/2.19ed6857.chunk.js.LICENSE.txt",
-    "static/media/Jotah2020.0cd279cc.svg": "/portafolio-jf/static/media/Jotah2020.0cd279cc.svg",
-    "static/media/iconFinansi.6333fac8.svg": "/portafolio-jf/static/media/iconFinansi.6333fac8.svg",
-    "static/media/photoJF.33054685.jpg": "/portafolio-jf/static/media/photoJF.33054685.jpg"
+    "main.css": "/portfolio/static/css/main.758db536.chunk.css",
+    "main.js": "/portfolio/static/js/main.8eaea786.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8eaea786.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.33f3cdbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.33f3cdbf.js.map",
+    "static/js/2.ccf432d9.chunk.js": "/portfolio/static/js/2.ccf432d9.chunk.js",
+    "static/js/2.ccf432d9.chunk.js.map": "/portfolio/static/js/2.ccf432d9.chunk.js.map",
+    "static/js/3.1d6eb20b.chunk.js": "/portfolio/static/js/3.1d6eb20b.chunk.js",
+    "static/js/3.1d6eb20b.chunk.js.map": "/portfolio/static/js/3.1d6eb20b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.758db536.chunk.css.map": "/portfolio/static/css/main.758db536.chunk.css.map",
+    "static/js/2.ccf432d9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ccf432d9.chunk.js.LICENSE.txt",
+    "static/media/iconFinansi.6333fac8.svg": "/portfolio/static/media/iconFinansi.6333fac8.svg",
+    "static/media/logoJF.66e78517.png": "/portfolio/static/media/logoJF.66e78517.png",
+    "static/media/photoJF.33054685.jpg": "/portfolio/static/media/photoJF.33054685.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.866e1123.js",
-    "static/js/2.19ed6857.chunk.js",
-    "static/css/main.e2a3f6bc.chunk.css",
-    "static/js/main.1ce854fe.chunk.js"
+    "static/js/runtime-main.33f3cdbf.js",
+    "static/js/2.ccf432d9.chunk.js",
+    "static/css/main.758db536.chunk.css",
+    "static/js/main.8eaea786.chunk.js"
   ]
 }
