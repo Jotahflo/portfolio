@@ -8,6 +8,12 @@ import Menu from "../components/Menu";
 import photoJF from "../images/photoJF.jpg";
 
 const About = () => {
+  let heightScreen = window.screen.height;
+  let classSmallHeight = "md:h-screen";
+  if (heightScreen < 600) {
+    classSmallHeight = "mt-16";
+  }
+
   return (
     <div>
       <Menu />
@@ -17,7 +23,12 @@ const About = () => {
         classButton="p-4 flex flex-row"
       />
       <div id="sectionAbout">
-        <div className="container mx-auto py-8 grid grid-cols-1 auto-rows-min lg:grid-cols-2 lg:auto-rows-auto items-center justify-items-center h-full md:h-screen">
+        <div
+          className={
+            "container mx-auto py-8 grid grid-cols-1 auto-rows-min lg:grid-cols-2 lg:auto-rows-auto items-center justify-items-center h-full " +
+            classSmallHeight
+          }
+        >
           <div className="md:order-1 mb-4 xl:ml-40 sm:w-4/5 md:w-5/12 lg:w-4/5 xl:w-3/5">
             <img
               className="border-2 border-gray-500 rounded-3xl shadow-sm"
@@ -59,7 +70,7 @@ const About = () => {
         </div>
       </div>
       <div id="sectionSkills">
-        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full lg:h-screen">
+        <div className="container mx-auto pt-12 lg:pt-24 pb-12 h-full xl:h-screen">
           <div className="mb-10 text-center">
             <p className="text-4xl font-serif mb-1">Skills</p>
             <p className="text-base text-gray-500">My technical level</p>

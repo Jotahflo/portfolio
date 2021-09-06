@@ -8,6 +8,7 @@ import Menu from "../components/Menu";
 import logoJF from "../images/logoJF.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+//TODO: Dejar h-full en la seccion Projects cuando haya mas de 3 proyectos
 const Home = (props) => {
   return (
     <div>
