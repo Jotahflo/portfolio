@@ -13,9 +13,9 @@ const HistoryGroup = () => {
         return (
           <Fragment>
             {data.type === "card" && (
-              <div key={data.id} className="bg-gray-700 rounded-xl shadow-sm p-4 h-full w-full">
-                <p className="mb-3 font-serif text-white text-2xl text-center">{data.year}</p>
-                <p className="text-base text-gray-400">{data.desc}</p>
+              <div key={data.id} className="bg-gray-200 rounded-xl shadow-sm p-4 h-full w-full">
+                <p className="mb-3 font-serif text-2xl text-center">{data.year}</p>
+                <p className="text-base text-gray-500">{data.desc}</p>
               </div>
             )}
             {data.type === "point" && <PointLine key={data.id} mdScreen={mdScreen} xlScreen={xlScreen} isVertical={false} />}

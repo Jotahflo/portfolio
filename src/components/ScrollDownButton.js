@@ -8,10 +8,7 @@ const ScrollDownButton = (props) => {
   };
 
   return (
-    <div
-      className="hidden md:block container mx-auto w-screen"
-      onClick={scrollDown}
-    >
+    <div className="hidden md:block container mx-auto w-screen" onClick={scrollDown}>
       <div className="absolute bottom-20 lg:bottom-12">
         <button className={props.classButton}>
           <div className="mr-4 text-red-600">
