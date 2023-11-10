@@ -1,6 +1,7 @@
 import logoFinansi from "../images/logoFinansi.svg";
 import logoMemory from "../images/logoMemory.svg";
 import logoSpaceship from "../images/logoSpaceship.png";
+import logoPolls from "../images/logoPolls.png";
 
 const projects = [
   {
@@ -23,6 +24,13 @@ const projects = [
     name: "Spaceship",
     desc: "Ship game with shooting meteorites.",
     url: "https://github.com/Jotahflo/spaceship",
+  },
+  {
+    id: "4",
+    icon: logoPolls,
+    name: "Polls",
+    desc: "Small polls with your reports.",
+    url: "https://github.com/Jotahflo/polls",
   },
 ];
 
