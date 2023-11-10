@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dd715a8f.chunk.css",
-    "main.js": "/portfolio/static/js/main.b240ec7a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b240ec7a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0bc5541f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0bc5541f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2a680a10.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a680a10.js.map",
     "static/js/2.d8c7b692.chunk.js": "/portfolio/static/js/2.d8c7b692.chunk.js",
@@ -15,12 +15,13 @@
     "static/media/logoFinansi.6333fac8.svg": "/portfolio/static/media/logoFinansi.6333fac8.svg",
     "static/media/logoJF.66e78517.png": "/portfolio/static/media/logoJF.66e78517.png",
     "static/media/logoMemory.cdc073a2.svg": "/portfolio/static/media/logoMemory.cdc073a2.svg",
+    "static/media/logoPolls.5e42ef85.png": "/portfolio/static/media/logoPolls.5e42ef85.png",
     "static/media/photoJF.308751ce.jpg": "/portfolio/static/media/photoJF.308751ce.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2a680a10.js",
     "static/js/2.d8c7b692.chunk.js",
     "static/css/main.dd715a8f.chunk.css",
-    "static/js/main.b240ec7a.chunk.js"
+    "static/js/main.0bc5541f.chunk.js"
   ]
 }
