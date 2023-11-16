@@ -9,7 +9,7 @@ const CardProject = () => {
           <div key={project.id} className="bg-gray-700 rounded-xl p-4 mb-4 md:mr-4 shadow-sm">
             <div className="grid grid-cols-2 grid-rows-1 items-center">
               <div className="mr-2">
-                <img src={project.icon} alt={project.name} width={"124px"} />
+                <img src={project.icon} alt={project.name} width={project.size} />
               </div>
               <div>
                 <p className="text-2xl text-white font-serif mb-2">{project.name}</p>

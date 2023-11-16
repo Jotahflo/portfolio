@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import skills from "../data/dataSkills";
 
 const SkillsGroup = () => {
@@ -8,7 +9,9 @@ const SkillsGroup = () => {
         return (
           <div key={skill.id} className="mb-4 md:mr-4 bg-gray-700 p-4 rounded-xl">
             <div className="flex flex-row items-center mb-2">
-              <div className="text-red-600 mr-4">{skill.icon}</div>
+              <div className="text-red-600 mr-4">
+                <FontAwesomeIcon icon={skill.icon.text} size={skill.icon.size} />
+              </div>
               <p className="text-2xl text-white font-serif text-left">{skill.name}</p>
             </div>
             <p className="text-base text-gray-400">{skill.desc}</p>

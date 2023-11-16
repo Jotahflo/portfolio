@@ -1,10 +1,7 @@
-import { useId } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const skills = [
   {
     id: "1",
-    icon: <FontAwesomeIcon icon="code" size="2x" />,
+    icon: { text: "code", size: "2x" },
     name: "Frontend",
     desc: "These client-side programming and framework languages are the ones that I have used in the projects that I have participated:",
     techs: [
@@ -23,7 +20,7 @@ const skills = [
   },
   {
     id: "2",
-    icon: <FontAwesomeIcon icon="server" size="2x" />,
+    icon: { text: "server", size: "2x" },
     name: "Backend",
     desc: "These server-side programming and framework languages are the ones that I have used in the projects that I have participated:",
     techs: [
@@ -39,7 +36,7 @@ const skills = [
   },
   {
     id: "3",
-    icon: <FontAwesomeIcon icon="swatchbook" size="2x" />,
+    icon: { text: "swatchbook", size: "2x" },
     name: "Tools",
     desc: "These tools of models or sketches are the ones I have used in the projects that I have participated:",
     techs: [
